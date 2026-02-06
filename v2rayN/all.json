@@ -11,7 +11,7 @@
     "outboundTag":"proxy",
     "domain":[
       "dat.com"
-    ]
+    ],
     "enabled":true,
     "remarks":"domain proxy"
   }
