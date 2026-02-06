@@ -3,8 +3,7 @@
     "outboundTag":"proxy",
     "domain":[
       "dat.com",
-      "2ip.io",
-      "2ip.ru"
+      "2ip.io"
     ],
     "enabled":true,
     "remarks":"domain proxy"
