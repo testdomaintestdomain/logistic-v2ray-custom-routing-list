@@ -1,22 +1,28 @@
 [
    {
+    "outboundTag":"direct",
+    "ip":[
+      "geoip:private"
+    ],
+    "enabled":true,
+    "remarks":"allow private"
+   },
+   {
     "outboundTag":"proxy",
     "domain":[
-      "*.dat.com",
-      "*.2ip.io",
-      "*.highway.com",
-      "*.dot.gov",
-      "*.amazon.com",
-      "*.rmisdirectory.com"
+      "dat.com",
+      "2ip.io",
+      "highway.com",
+      "dot.gov",
+      "amazon.com",
+      "rmisdirectory.com"
     ],
     "enabled":true,
     "remarks":"domain proxy"
   },
   {
     "outboundTag":"direct",
-    "ip":[
-      "0.0.0.0/0"
-    ],
+    "port":"0-65535"
     "enabled":true,
     "remarks":"bypass"
   }
