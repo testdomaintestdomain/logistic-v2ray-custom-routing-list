@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "tag": "remote",
+      "server": "8.8.8.8",
+      "type": "udp",
+      "detour": "proxy"
+    },
+    {
+      "tag": "local",
+      "server": "77.88.8.8",
+      "type": "udp"
+    }
+  ],
+  "rules": [
+    {
+      "rule_set": [
+        "geosite-category-ads-all"
+      ],
+      "action": "predefined",
+      "rcode": "NOERROR"
+    }
+  ],
+  "final": "remote"
+}
