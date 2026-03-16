@@ -2,8 +2,12 @@
    {
     "outboundTag":"proxy",
     "domain":[
-      "dat.com",
-      "2ip.io"
+      "*.dat.com",
+      "*.2ip.io",
+      "*.highway.com",
+      "*.dot.gov",
+      "*.amazon.com",
+      "*.rmisdirectory.com"
     ],
     "enabled":true,
     "remarks":"domain proxy"
