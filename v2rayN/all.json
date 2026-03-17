@@ -1,13 +1,5 @@
 [
    {
-    "outboundTag":"direct",
-    "ip":[
-      "geoip:private"
-    ],
-    "enabled":true,
-    "remarks":"allow private"
-   },
-   {
     "outboundTag":"proxy",
     "domain":[
       "dat.com",
