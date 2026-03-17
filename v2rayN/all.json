@@ -22,7 +22,7 @@
   },
   {
     "outboundTag":"direct",
-    "port":"0-65535"
+    "port":"0-65535",
     "enabled":true,
     "remarks":"bypass"
   }
